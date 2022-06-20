@@ -20,6 +20,7 @@ body {
 
 .section-two {
     background-color: white;
+    margin-bottom: 32px;
 }
 
 .section-three {
@@ -105,5 +106,32 @@ body {
 .section-two img {
     width: 200px;
     height: auto;
+}
+
+.section-two .picture-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 28px 0;
+}
+
+.section-two .pictures {
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 10%;
+    list-style-type: none;
+}
+
+.section-two img {
+    object-fit: cover;
+    width: 225px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.section-two .description {
+    font-size: 16px;
+    text-align: center;
 }
 
