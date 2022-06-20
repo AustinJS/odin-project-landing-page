@@ -149,3 +149,32 @@ body {
     font-weight: bold;
 }
 
+.call-to-action {
+    background-color: #3882F6;
+    margin: 4% 15%;
+    padding: 36px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action .cta-header {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+ 
+.call-to-action .cta-content {
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: lighter
+}
+
+.call-to-action button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 0px 36px;
+}
