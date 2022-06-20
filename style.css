@@ -178,3 +178,10 @@ body {
     border-radius: 8px;
     padding: 0px 36px;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 24px;
+    color: #E5E7EB;
+    text-align: center;
+}
