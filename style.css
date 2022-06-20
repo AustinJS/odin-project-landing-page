@@ -135,3 +135,17 @@ body {
     text-align: center;
 }
 
+.section-three .quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 64px 15% 0;
+    
+}
+
+.section-three .attribution {
+    text-align: right;
+    margin: 0 15% 64px;
+    font-weight: bold;
+}
+
