@@ -119,7 +119,7 @@ body {
 .section-two .pictures {
     display: flex;
     justify-content: space-between;
-    margin: 28px 10%;
+    margin: 28px 15%;
     list-style-type: none;
 }
 
