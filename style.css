@@ -5,53 +5,17 @@
     box-sizing: border-box;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
 }
 
-.section-one .header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 48px;
-}
-
-.section-one .header .title {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
-.section-one .header .header-links {
-    display: flex;
-    justify-content: space-between;
-    width: 18%;
-}
-
-.section-one li {
-    list-style-type: none;
-}
-
-.header a {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-
-.section-one img {
-    width: 200px;
-    height: auto;
-}
-
-.section-two img {
-    width: 200px;
-    height: auto;
-}
-
 .section-one {
     color: #F9FAF8;
     background-color: #1F2937;
+
+    padding: 0px 15%;
 }
 
 .section-two {
@@ -61,3 +25,84 @@ body {
 .section-three {
     background-color: #E5E7EB;
 }
+
+.section-one .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.section-one .logo .title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.section-one .logo .logo-links {
+    display: flex;
+    justify-content: space-between;
+    width: 183px
+    
+}
+
+.section-one li {
+    list-style-type: none;
+}
+
+
+
+.logo a,
+.left-content .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one .content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0 10% 0;
+}
+
+.section-one .left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    flex: 0.5 1 auto;
+}
+
+.left-content .header {
+    font-size: 48px;
+    font-weight: bold;
+
+    margin: 0 0 18px 0;
+}
+
+
+.left-content button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    padding: 6px 32px;
+    border-radius: 8px;
+    margin: 24px 0 0 0;
+    border: none;
+}
+
+.section-one img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+
+    flex: 1 1 auto;
+    margin-left: 5%;
+
+}
+
+.section-two img {
+    width: 200px;
+    height: auto;
+}
+
